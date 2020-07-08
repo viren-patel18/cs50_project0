@@ -1,0 +1,159 @@
+.container{
+    font-family: Arial, sans-serif;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.cSearchBlock{
+    width: 50%;
+    margin: 120px auto;
+}
+
+.img{
+    margin: auto;
+    display: block;
+}
+
+.cLink{
+    text-align: right;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.link{
+    color: gray;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.link:hover{
+    color: black
+}
+
+.headings{
+    width: 90%;
+    margin-left: 5%;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.findPages{
+    margin-right: 48%;
+    font-size: 16px;
+}
+
+.todo{
+    width: 30%;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+
+.inputs{
+    width: 90%;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.labelInput{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.label{
+    width: 17%;
+    float: left;
+    padding-top: 5px;
+}
+
+.input{
+    width: 40%;
+    height: 25px;
+    border: 1px lightgray solid;
+}
+
+.input:focus{
+    box-shadow: 0 0 3px #3079ed;
+    outline: none;
+}
+
+.info{
+    width: 30%;
+    font-size: 13px;
+    color: rgb(95, 95, 95);
+    margin-left: 2%;
+}
+
+.searchInput .input{
+    width: 85%;
+    margin: 25px auto 0px auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 0 1px rgb(190, 190, 190);
+    height: 40px;
+    font-size: 16px;
+}
+
+.searchInput .input:focus{
+    box-shadow: 0 0 3px #3079ed;
+    outline: none;
+}
+
+#advancedBtn{
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    color: #fff;
+    padding: 8px 15px;
+    /* width: 100%; */
+    margin-right: 42%;
+    margin-top: 5px;
+    border: none;
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    border: 1px solid #3079ed;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+#advancedBtn:focus{
+    outline: none;
+}
+
+.cSearchBtn{
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.searchBtn{
+    background-color: rgb(240, 240, 240);
+    color: rgb(95, 95, 95);
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 5px 0 5px;
+    padding: 5px 15px;
+    height: 36px;
+}
+
+.searchBtn:hover{
+    border: 1px gray solid;
+    color: rgb(46, 46, 46);
+}
+
+#advancedSearch{
+    color: rgb(226, 0, 0);
+    font-size: 20px;
+    margin-left: 5%;
+    padding-bottom: 25px;
+}
+
+.header{
+    border-bottom: 1px lightgray solid;
+    margin-bottom: 45px;
+}
